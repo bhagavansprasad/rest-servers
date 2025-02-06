@@ -1,0 +1,5 @@
+---- Login to sql with default username and password 'jnjnuh'
+psql -h 127.0.0.1 -U postgres postgres
+psql -U bhagavan -d postgres -f schema.sql
+psql -U bhagavan -d postgres -f insert_data.sql
+
